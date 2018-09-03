@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'AGAT';
+  subtitle = 'Aplicativo de geolocalização de assitencias técnicas';
 }
