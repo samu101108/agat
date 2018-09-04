@@ -28,6 +28,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h3').textContent).toContain('plicativo de geolocalização de assitencias técnicas');
+    expect(compiled.querySelector('h3').textContent).toContain('Aplicativo de Geolocalização de Assitência Técnicas');
   }));
 });
