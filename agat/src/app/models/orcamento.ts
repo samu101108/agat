@@ -6,6 +6,6 @@ export class Orcamento {
   public descricao: String,
   public observacoes: String
 
-  ){}
+  ) {}
 
 }
