@@ -1,61 +1,60 @@
-<form class="" action="index.html" method="post">
-  <fieldset>Cadastro Usuario </fieldset><br>
+<form autocomplete="on"  class="" action="index.html" method="post">
+  <fieldset>
+    <legend>Cadastrar usuário</legend>
   <div>
-    <label>Nome Completo</label>
-    <input type="text" name="nome" value="">
+    <label for="nome">Nome Completo</label>
+    <input autocomplete="on" type="text" name="nome" value="" id="nome_completo">
   </div>
 
+  <div>
+    <label for="email_user">E-mail</label>
+    <input autocomplete="on" type="email" name="email" value="" id="email_user">
+  </div>
+
+  <div>
+    <label for="endereco_user">Endereço</label>
+    <input autocomplete="on" type="text" name="endereco" value="" id="endereco_user">
+  </div>
+
+  <div>
+    <label for="bairro_user">Bairro</label>
+    <input autocomplete="on" type="text" name="bairro" value="" id="bairro_user">
+  </div>
+
+  <div>
+    <label for="cidade_user">Cidade</label>
+    <input autocomplete="on" type="text" name="cidade" value="" id="cidade_user">
+  </div>
+
+  <div>
+    <label for="uf_user">Estado</label>
+    <input autocomplete="on" type="text" name="estado" value="" id="uf_user">
+  </div>
+
+  <div>
+    <label for="nascimento">Data de Nascimento</label>
+    <input autocomplete="on" type="date" name="datadenascimento" value="" id="nascimento">
+  </div>
+
+  <div>
+    <label for="telefone_user">Telefone</label>
+    <input autocomplete="on" type="tel" name="telefone" value="" id="tel_user">
+  </div>
+
+  <div>
+    <label for="senha_user">Senha</label>
+    <input autocomplete="on" type="password" name="senha" value="" id="senha_user">
+  </div>
+
+  <div>
+    <label for="senha_user_confima">Confirmar senha</label>
+    <input autocomplete="on" type="password" name="confirmarsenha" value="" id="senha_user_confima">
+  </div>
 <div>
-    <label>E-mail</label>
-    <input type="email" name="email" value="">
-  </div>
+  <label for="enviar_cadastro_user"></label>
+  <button type="submit" name="button" id="enviar_cadastro_user">Enviar</button>
 
-  <div>
-
-    <label>Endereço</label>
-    <input type="text" name="endereco" value="">
-  </div>
-
-  <div>
-    <label>Bairro</label>
-    <input type="text" name="bairro" value="">
-  </div>
-
-  <div>
-    <label>Cidade</label>
-    <input type="text" name="cidade" value="">
-  </div>
-
-  <div>
-    <label>UF</label>
-    <input type="text" name="uf" value="">
-  </div>
-
-  <div>
-    <label>Estado</label>
-    <input type="text" name="estado" value="">
-  </div>
-
-  <div>
-    <label>Data de Nascimento</label>
-    <input type="date" name="datadenascimento" value="">
-  </div>
-
-  <div>
-    <label>Telefone</label>
-    <input type="tel" name="telefone" value="">
-  </div>
-
-  <div>
-    <label>Senha</label>
-    <input type="password" name="senha" value="">
-  </div>
-
-  <div>
-    <label>Confirmar senha</label>
-    <input type="password" name="confirmarsenha" value="">
-  </div>
-
-  <button type="submit" name="button">Enviar</button>
+</div>
+</fieldset>
 
 </form>

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AGAT';
-  subtitle = 'Aplicativo de Geolocalização de Assitência Técnicas';
+  subtitle = 'Aplicativo de Geolocalização de Assitências Técnicas';
 }

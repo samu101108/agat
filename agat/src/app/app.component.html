@@ -1,10 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-<h3>{{subtitle}}</h3>
-<a routerLink="usuario">Cadastrar Usuario</a>&nbsp;&nbsp;
-<a routerLink="assistencia">Cadastar Assistência Técnica</a>&nbsp;&nbsp;
-<a routerLink="orcamento">Solicitar Orcamento</a>
+<div class="navbar">
+  <div class="titles">
+    <h1>{{ title }}</h1>
+    <h3>{{subtitle}}</h3>
+  </div>
+<ul class="nav">
+  <li>
+  <a routerLink="usuario">Cadastrar usuário</a>
+  </li>
+  <li>
+    <a routerLink="assistencia">Cadastar assistência técnica</a>
+  </li>
+  <li>
+    <a routerLink="orcamento">Solicitar orcamento</a>
+  </li>
+</ul>
+</div>
 <router-outlet></router-outlet>

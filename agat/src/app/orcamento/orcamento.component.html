@@ -1,27 +1,32 @@
 
-<form class="" action="index.html" method="post">
+<form  autocomplete="on"  class="" action="index.html" method="post">
 
-  <fieldset>Solicitar Orçamento</fieldset><br>
-
+  <fieldset>
+    <legend>Solicitar Orçamento</legend>
   <div>
-    <label>Nome do Cliente</label>
-    <input type="text" name="nomedocliente" value="">
+    <label for="nome_cliente">Nome do Cliente</label>
+    <input autocomplete="on"  type="text" name="nomedocliente" value="" id="nome_cliente">
   </div>
 
 <div>
-    <label>Data Solicitada</label>
-    <input type="date" name="datasolicitada" value="">
+    <label for="data_solicidata">Data Solicitada</label>
+    <input autocomplete="on"  type="date" name="datasolicitada" value="" id="data_solicidata">
   </div>
 
   <div>
-    <label>Descrição</label>
-    <input type="text" name="descricao" value="">
+    <label for="descricao_id">Descrição</label>
+    <input autocomplete="on"  type="text" name="descricao" value="" id="descricao_id">
   </div>
 
   <div>
-    <label>Observações</label>
-    <textarea name="observacoes" rows="8" cols="80"></textarea>
+    <label for="observacoes_id">Observações</label>
+    <textarea name="observacoes" id="observacoes_id"></textarea>
   </div>
 
-  <button type="submit" name="button">Enviar</button>
+<div>
+  <label for="enviar_solicitacao_orcamento">Observações</label>
+  <button type="submit" name="button" id="enviar_solicitacao_orcamento">Enviar</button>
+</div>
+
+  </fieldset>
 </form>
